@@ -64,6 +64,8 @@ already below testability in the noise-free limit). This registration therefore
 targets the next generation of large-scale polarization data.
 
 ## Change log
-- v1.0 (2026-08-15): frozen. Public commit: [RECORD HASH AFTER PUSH,
-  repository github.com/tsujikeita/plane-excised-mirror,
-  path docs/prediction_registration_v1.0.md]
+- v1.0 (2026-08-15): frozen. **Public commit `63aa853`**,
+  repository `github.com/tsujikeita/plane-excised-mirror`,
+  path `docs/prediction_registration_v1.0.md`. Permanent link:
+  https://github.com/tsujikeita/plane-excised-mirror/blob/63aa853/docs/prediction_registration_v1.0.md
+  (This change-log entry is the only amendment after freezing.)
