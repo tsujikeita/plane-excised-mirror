@@ -69,3 +69,12 @@ targets the next generation of large-scale polarization data.
   path `docs/prediction_registration_v1.0.md`. Permanent link:
   https://github.com/tsujikeita/plane-excised-mirror/blob/63aa853/docs/prediction_registration_v1.0.md
   (This change-log entry is the only amendment after freezing.)
+- Correction 1 (2026-08-15): two benchmark descriptions in §2 are corrected;
+  no frozen quantity (axis, statistic, mask rule, null, decision rule) changes.
+  (i) The H_geo benchmark sky fraction reads f_sky ≈ 0.72; the mask actually used
+  is the common Galactic mask at N_side=16, f_sky = 0.65 (0.72 was the N_side=64
+  value of a companion analysis). (ii) The detection-probability statement is
+  verified and sharpened by Monte Carlo: in the cosmic-variance limit the median
+  expected p under H_geo is < 10^-3, with P(p < 0.01) = 92% at f_sky = 0.65 and
+  97% full-sky (z = 1.7 and 2.0 respectively); the non-Gaussian null makes the
+  z-score alone an understatement.
